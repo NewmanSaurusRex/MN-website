@@ -1,0 +1,19 @@
+/*font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+
+h1 {
+  color: #403930;
+  font-family: "Poppins", sans-serif;
+  font-weight: SemiBold;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: medium;
+}
+
+footer {
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
