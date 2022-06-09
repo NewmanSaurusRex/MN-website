@@ -1,7 +1,3 @@
-/*font-family: 'Inter', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;*/
-
 h1 {
   color: #403930;
   font-family: "Poppins", sans-serif;
@@ -16,4 +12,10 @@ p {
 footer {
   font-family: "Inter", sans-serif;
   font-weight: normal;
+}
+
+.hero {
+  background: linear-gradient(180deg, #fff2c5 0%, rgba(250, 250, 250, 0) 100%);
+
+  text-align: left;
 }
