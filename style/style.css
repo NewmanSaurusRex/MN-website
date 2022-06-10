@@ -24,7 +24,8 @@ body {
 h1 {
   font-family: var(--heading-font-family);
   font-weight: SemiBold;
-  font-size: 76px;
+  font-size: 64px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -38,7 +39,7 @@ h3 {
 p {
   font-family: var(--non-heading-font-family);
   font-weight: medium;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -56,7 +57,7 @@ p {
 
 .hero h2 {
   font-weight: normal;
-  font-size: 48px;
+  font-size: 36px;
   line-height: 1.5;
   color: var(--branding-text-color);
 }
@@ -91,9 +92,54 @@ p {
   font-family: var(--non-heading-font-family);
   color: var(--branding-primary-color);
   border: 1px solid var(--branding-primary-color);
+  display: inline-block;
 }
 
-.m-builds-apps {
+.project-info {
   max-width: 100%;
   border-radius: 12px;
+}
+
+.btn-project-launch {
+  line-height: 27px;
+  font-weight: 400;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: var(--non-heading-font-family);
+  color: var(--branding-secondary-color);
+  border: 1px solid var(--branding-secondary-color);
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .hero {
+    background: var(--branding-gradient-color-hero);
+    padding: 50px 50px;
+    text-align: center;
+  }
+
+  .hero .btn-branding {
+    display: block;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: justify;
+  }
+
+  .btn-project-launch {
+    display: block;
+  }
 }
