@@ -92,3 +92,8 @@ p {
   color: var(--branding-primary-color);
   border: 1px solid var(--branding-primary-color);
 }
+
+.m-builds-apps {
+  max-width: 100%;
+  border-radius: 12px;
+}
