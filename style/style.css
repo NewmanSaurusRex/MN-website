@@ -62,6 +62,31 @@ p {
   color: var(--branding-text-color);
 }
 
+.about-hero {
+  padding: 70px 40px;
+  text-align: left;
+}
+
+.about-hero-content {
+  margin: 15px;
+}
+
+.about-hero h1 {
+  font-size: 36px;
+  line-height: normal;
+  font-family: var(--heading-font-family);
+}
+
+.about-hero h2 {
+  font-size: 16px;
+  font-family: var(--heading-font-family);
+}
+
+.about-hero p {
+  font-size: 12px;
+  font-family: var(--non-heading-font-family);
+}
+
 .btn-branding {
   background: var(--branding-primary-color);
   color: #fffffe;
@@ -81,6 +106,8 @@ p {
 
 .headshot {
   max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .recent-work {
@@ -149,6 +176,11 @@ p {
     background: var(--branding-gradient-color-hero);
     padding: 50px 50px;
     text-align: center;
+  }
+
+  .about-hero {
+    text-align: center;
+    padding: 20px;
   }
 
   .hero .btn-branding {
