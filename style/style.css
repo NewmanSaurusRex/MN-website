@@ -63,8 +63,10 @@ p {
 }
 
 .about-hero {
-  padding: 70px 40px;
-  text-align: left;
+  max-width: 100%;
+  background: var(--branding-gradient-color-pages);
+  padding: 100px 100px;
+  text-align: right;
 }
 
 .about-hero-content {
@@ -72,13 +74,13 @@ p {
 }
 
 .about-hero h1 {
-  font-size: 36px;
+  font-size: 44px;
   line-height: normal;
   font-family: var(--heading-font-family);
 }
 
 .about-hero h2 {
-  font-size: 16px;
+  font-size: 24px;
   font-family: var(--heading-font-family);
 }
 
@@ -114,6 +116,21 @@ p {
   background: var(--branding-gradient-color-pages);
   padding: 40px;
   border-radius: 10px;
+}
+
+.my-story {
+  background: #fff2c5;
+}
+
+.my-story h3,
+h4 {
+  color: #6246ea;
+}
+
+.my-story-acts {
+  border: 1px solid #fca61f;
+  border-radius: 10px;
+  justify-content: space-between;
 }
 
 .btn-branding-outline {
