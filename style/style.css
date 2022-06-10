@@ -1,21 +1,56 @@
+:root {
+  --branding-gradient-color: linear-gradient(
+    180deg,
+    #fff2c5 0%,
+    rgba(250, 250, 250, 0) 100%
+  );
+
+  --branding-primary-color: #fca61f;
+  --branding-text-color: #403930;
+  --heading-font-family: "Poppins", sans-serif;
+  --non-heading-font-family: "Work Sans", sans-serif;
+}
+
 h1 {
   color: #403930;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: SemiBold;
+  font-size: 64px;
 }
 
 p {
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--non-heading-font-family);
   font-weight: medium;
 }
 
-footer {
-  font-family: "Inter", sans-serif;
-  font-weight: normal;
+.hero {
+  background: var(--branding-gradient-color);
+  padding: 160px 60px;
+  text-align: left;
 }
 
-.hero {
-  background: linear-gradient(180deg, #fff2c5 0%, rgba(250, 250, 250, 0) 100%);
+.badge {
+  margin-bottom: 20px;
+}
 
-  text-align: left;
+.hero h2 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--branding-text-color);
+}
+
+.btn-branding {
+  background: var(--branding-primary-color);
+  color: #fffffe;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.headshot {
+  max-width: 75%;
+  max-height: 75%;
 }
