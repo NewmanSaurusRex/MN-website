@@ -11,11 +11,15 @@
   --non-heading-font-family: "Work Sans", sans-serif;
 }
 
+body {
+  max-width: 100%;
+}
+
 h1 {
   color: #403930;
   font-family: var(--heading-font-family);
   font-weight: SemiBold;
-  font-size: 64px;
+  font-size: 76px;
 }
 
 p {
@@ -25,17 +29,19 @@ p {
 
 .hero {
   background: var(--branding-gradient-color);
-  padding: 160px 60px;
-  text-align: left;
+  padding: 100px 100px;
+  text-align: right;
 }
 
-.badge {
+.hello-banner {
+  margin-top: 15px;
   margin-bottom: 20px;
+  max-width: 30%;
 }
 
 .hero h2 {
   font-weight: normal;
-  font-size: 24px;
+  font-size: 48px;
   line-height: 1.5;
   color: var(--branding-text-color);
 }
@@ -43,7 +49,7 @@ p {
 .btn-branding {
   background: var(--branding-primary-color);
   color: #fffffe;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 27px;
   font-weight: 400;
   padding: 15px 30px;
@@ -51,6 +57,5 @@ p {
 }
 
 .headshot {
-  max-width: 75%;
-  max-height: 75%;
+  max-width: 100%;
 }
