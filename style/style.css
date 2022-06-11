@@ -62,29 +62,40 @@ p {
   color: var(--branding-text-color);
 }
 
-.about-hero {
+.content-container {
   max-width: 100%;
   background: var(--branding-gradient-color-hero);
   padding: 100px 100px;
   text-align: right;
 }
 
-.about-hero-content {
+.content {
   margin: 15px;
 }
 
-.about-hero h1 {
-  font-size: 44px;
+.content h3 {
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+  font-family: var(--heading-font-family);
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content-container h1 {
+  font-size: 42px;
   line-height: normal;
   font-family: var(--heading-font-family);
 }
 
-.about-hero h2 {
-  font-size: 24px;
+.content-container h2 {
+  font-size: 22px;
   font-family: var(--heading-font-family);
 }
 
-.about-hero p {
+.content-container p {
   font-size: 12px;
   font-family: var(--non-heading-font-family);
 }
@@ -110,6 +121,7 @@ p {
   max-width: 100%;
   height: auto;
   display: block;
+  margin: 0;
 }
 
 .recent-work {
@@ -200,7 +212,7 @@ h4 {
     text-align: center;
   }
 
-  .about-hero {
+  .content-container {
     text-align: center;
     padding: 20px;
   }
