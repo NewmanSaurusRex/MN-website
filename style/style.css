@@ -194,7 +194,7 @@ h4 {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 nav {
@@ -253,6 +253,17 @@ footer .contact-box p {
   font-size: 75px;
 }
 
+.contact-inquiry h3 {
+  color: #6246ea;
+  font-size: 32px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+.contact-inquiry p {
+  font-size: 24px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 54px;
@@ -293,5 +304,10 @@ footer .contact-box p {
   footer h4 {
     font-size: 32px;
     padding-left: 0;
+  }
+  .contact-inquiry p {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
   }
 }

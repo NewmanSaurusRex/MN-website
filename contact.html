@@ -30,42 +30,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="homepage">
+          <img
+            src="images/transparent-logo.png"
+            alt="brand-logo"
+            class="logo d-none d-md-block"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About M">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="M's Work">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact M">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
-        <h1 class="mb-3">Don't Be a Stranger!</h1>
-        <h3>Interested in collaborating? </h3>
-          <h4 class="p-3">Please reach out at any of the links below.</h4>
-        <div class="row">
-          <div class="col">
-            <a href="https://github.com/NewmanSaurusRex/" target="_blank"
-              ><img src="/media-icons/Github.png" class="img-fluid"
-            /></a>
+        <h1 class="mb-3 text-center">Don't Be a Stranger!</h1>
+        <div class="contact-box d-flex justify-content-between mb-5">
+          <div class="contact-inquiry">
+            <h3 class="d-none d-md-flex">Interested in collaborating?</h3>
+            <p>Let's Work Together 😎</p>
           </div>
-          <div class="col">
-            <a href="https://instagram.com/newmansaurusrex/" target="_blank">
-              <img src="/media-icons/Instagram.png" class="img-fluid"
-            /></a>
-          </div>
-          <div class="col">
-            <a href="mailto:megan.m.boggs@gmail.com" target="_blank">
-              <img src="images/oh-no.png" class="img-fluid rounded"
-            /></a>
-          </div>
-          <div class="col">
+          <div>
             <a
-              href="https://www.linkedin.com/in/megannewman176/"
-              target="_blank"
+              href="mailto:megan.m.boggs@gmail.com"
+              title="Email M"
+              class="btn btn-branding mt-3"
+              >Contact M!</a
             >
-              <img src="/media-icons/LinkedIn.png" class="img-fluid"
-            /></a>
-          </div>
-          <div class="col">
-            <a href="https://twitter.com/NewmanSaurusRex" target="_blank">
-              <img src="/media-icons/Twitter.png" class="img-fluid"
-            /></a>
           </div>
         </div>
       </div>
+    </div>
+    <div class="container">
+      <footer class="p-3 pb-1 mb-5">
+        <h4>Let's Connect:</h4>
+        <div class="row d-flex justify-content-between">
+          <div class="col text-center mt-5">
+            <a
+              href="https://github.com/NewmanSaurusRex/"
+              title="Find M on GitHub"
+              target="_blank"
+              ><i class="fab fa-github icon"></i>
+            </a>
+          </div>
+          <div class="col text-center mt-5">
+            <a
+              href="https://instagram.com/newmansaurusrex/"
+              title="Find M on Insta"
+              target="_blank"
+            >
+              <i class="fab fa-instagram icon"></i>
+            </a>
+          </div>
+          <div class="col icon text-center mb-2">
+            <a
+              href="mailto:megan.m.boggs@gmail.com"
+              title="Email M!"
+              target="_blank"
+            >
+              <img src="images/oh-no.png" class="img-fluid rounded"
+            /></a>
+          </div>
+          <div class="col text-center mt-5">
+            <a
+              href="https://twitter.com/NewmanSaurusRex"
+              title="Find M on Twitter"
+              target="_blank"
+            >
+              <i class="fab fa-twitter icon"></i
+            ></a>
+          </div>
+          <div class="col text-center mt-5">
+            <a
+              href="https://www.linkedin.com/in/megannewman176/"
+              title="Find M on LinkedIn"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin icon"></i>
+            </a>
+          </div>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by M Newman and it is
+          <a href="https://github.com/NewmanSaurusRex/MN-website"
+            >open sourced</a
+          >. 😎
+        </p>
+      </footer>
     </div>
   </body>
 </html>
