@@ -30,110 +30,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="#" class="logo d-none d-md-block" />
-          <img src="#" class="logo d-block d-md-none" />
-        </a>
-        <ul>
-          <li class="active">
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about.html">About</a>
-          </li>
-          <li>
-            <a href="/work.html">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="hero">
-      <div class="row">
-        <div class="col-6">
-          <img
-            src="/images/hello.png"
-            alt="hello"
-            class="hello-banner img-fluid"
-          />
-          <h1>M Newman</h1>
-          <h2 class="mb-3">Front-end Developer, based in Los Angeles</h2>
-          <div>
-            <a href="/contact.html" class="btn btn-branding">Contact Me</a>
+    <div class="page-container">
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="/">
+            <img src="#" class="logo d-none d-md-block" />
+            <img src="#" class="logo d-block d-md-none" />
+          </a>
+          <ul>
+            <li class="active">
+              <a href="/">Home</a>
+            </li>
+            <li>
+              <a href="/about.html">About</a>
+            </li>
+            <li>
+              <a href="/work.html">Work</a>
+            </li>
+            <li>
+              <a href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero">
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="/images/hello.png"
+              alt="hello"
+              class="hello-banner img-fluid"
+            />
+            <h1>M Newman</h1>
+            <h2 class="mb-3">Front-end Developer, based in Los Angeles</h2>
+            <div>
+              <a href="/contact.html" class="btn btn-branding">Contact Me</a>
+            </div>
+          </div>
+          <div class="col d-none d-lg-block">
+            <img
+              src="/images/oh-no.png"
+              alt="m silly headshot, blue background, oh no face"
+              class="headshot img-fluid"
+            />
           </div>
         </div>
-        <div class="col d-none d-lg-block">
-          <img
-            src="/images/oh-no.png"
-            alt="m silly headshot, blue background, oh no face"
-            class="headshot img-fluid"
-          />
+      </div>
+
+      <div class="recent-work pt-5 m-5 mb-2">
+        <h3 class="mb-3">Recent Work</h3>
+        <div>
+          <a href="/work.html" class="btn btn-branding-outline">See More</a>
         </div>
       </div>
-    </div>
 
-    <div class="recent-work pt-5 m-5 mb-2">
-      <h3 class="mb-3">Recent Work</h3>
-      <div>
-        <a href="/work.html" class="btn btn-branding-outline">See More</a>
-      </div>
-    </div>
-
-    <div class="container mb-5">
-      <div class="row">
-        <div class="col d-none d-lg-block">
-          <img
-            src="/images/m-builds-apps.jpg"
-            alt="m builds apps homepage"
-            class="project-info img-fluid"
-          />
-        </div>
-        <div class="col-6 project-description">
-          <h2 class="mb-4">M Builds Apps</h2>
-          <p class="mt-2 text-muted">
-            I challenged myself to complete Wes Bos' free course to up my
-            javascript skills! Each exercise has a 5-20min video attached and
-            resource links on GitHub.
-          </p>
-          <p class="mt-2 text-muted">
-            While this class doesn't have a slack channel or discord dedicated
-            to it, folks have been working on these projects for a minute now
-            and help is on twitter! Search #javascript30 😎
-          </p>
-          <a href="#" class="btn btn-project-launch">Launch App</a>
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col d-none d-lg-block">
+            <img
+              src="/images/m-builds-apps.jpg"
+              alt="m builds apps homepage"
+              class="project-info img-fluid"
+            />
+          </div>
+          <div class="col-6 project-description">
+            <h2 class="mb-4">M Builds Apps</h2>
+            <p class="mt-2 text-muted">
+              I challenged myself to complete Wes Bos' free course to up my
+              javascript skills! Each exercise has a 5-20min video attached and
+              resource links on GitHub.
+            </p>
+            <p class="mt-2 text-muted">
+              While this class doesn't have a slack channel or discord dedicated
+              to it, folks have been working on these projects for a minute now
+              and help is on twitter! Search #javascript30 😎
+            </p>
+            <a href="#" class="btn btn-project-launch">Launch App</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container mb-5">
-      <div class="row">
-        <div class="col d-none d-lg-block">
-          <img
-            src="/images/weather-app-img.jpg"
-            alt="she codes weather app"
-            class="project-info img-fluid"
-          />
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col d-none d-lg-block">
+            <img
+              src="/images/weather-app-img.jpg"
+              alt="she codes weather app"
+              class="project-info img-fluid"
+            />
+          </div>
+          <div class="col-6 project-description">
+            <h2 class="mb-4">SheCodes Plus Final Project</h2>
+            <p class="mt-2 text-muted">
+              Our prompt was to build a responsive weather app that would give
+              real time data, utilizing an open weather API. We also learned how
+              to access the current time, day, etc. using Google's Geolocation
+              API.
+            </p>
+            <p class="mt-2 text-muted">
+              I loved showing this weather app off to folks! My therapist joked
+              that it would be her <em>"only weather app from now on"</em>.
+              These SheCodes projects are super dope! We get to learn in real
+              time and at our own pace!!
+            </p>
+            <a href="#" class="btn btn-project-launch">Launch App</a>
+          </div>
         </div>
-        <div class="col-6 project-description">
-          <h2 class="mb-4">SheCodes Plus Final Project</h2>
-          <p class="mt-2 text-muted">
-            Our prompt was to build a responsive weather app that would give
-            real time data, utilizing an open weather API. We also learned how
-            to access the current time, day, etc. using Google's Geolocation
-            API.
-          </p>
-          <p class="mt-2 text-muted">
-            I loved showing this weather app off to folks! My therapist joked
-            that it would be her <em>"only weather app from now on"</em>. These
-            SheCodes projects are super dope! We get to learn in real time and
-            at our own pace!!
-          </p>
-          <a href="#" class="btn btn-project-launch">Launch App</a>
-        </div>
+      </div>
+      <div class="container mt-5">
+        <footer class="p-3 pb-1 mt-5 mb-5">
+          <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+            <div>
+              <h3>Work Inquiries</h3>
+              <p>Let's Work Together</p>
+            </div>
+            <div>
+              <a href="#" class="btn btn-branding mt-3">Contact M!</a>
+            </div>
+          </div>
+          <h4>Let's Connect:</h4>
+          <div class="row d-flex justify-content-between">
+            <div class="col text-center mt-5">
+              <a href="https://github.com/NewmanSaurusRex/" target="_blank"
+                ><i class="fab fa-github icon"></i>
+              </a>
+            </div>
+            <div class="col text-center mt-5">
+              <a href="https://instagram.com/newmansaurusrex/" target="_blank">
+                <i class="fab fa-instagram icon"></i>
+              </a>
+            </div>
+            <div class="col icon text-center mb-2">
+              <a href="mailto:megan.m.boggs@gmail.com" target="_blank">
+                <img src="images/oh-no.png" class="img-fluid rounded"
+              /></a>
+            </div>
+            <div class="col text-center mt-5">
+              <a href="https://twitter.com/NewmanSaurusRex" target="_blank">
+                <i class="fab fa-twitter icon"></i
+              ></a>
+            </div>
+            <div class="col text-center mt-5">
+              <a
+                href="https://www.linkedin.com/in/megannewman176/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin icon"></i>
+              </a>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   </body>

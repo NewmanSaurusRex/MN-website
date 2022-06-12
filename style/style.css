@@ -224,6 +224,35 @@ nav li.active a {
   color: var(--branding-secondary-color);
 }
 
+footer h3 {
+  font-size: 44px;
+}
+
+footer h4 {
+  color: #6246ea;
+  font-size: 42px;
+  font-family: var(--heading-font-family);
+  text-align: left;
+  padding-bottom: 18px;
+  padding-left: 30px;
+}
+
+footer .contact-box {
+  padding: 30px 60px;
+  background-color: #eff0f3;
+  border: 2px solid var(--branding-secondary-color);
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+.icon {
+  color: var(--branding-primary-color);
+  font-size: 75px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 54px;
@@ -259,5 +288,10 @@ nav li.active a {
 
   .btn-project-launch {
     display: block;
+  }
+
+  footer h4 {
+    font-size: 32px;
+    padding-left: 0;
   }
 }
