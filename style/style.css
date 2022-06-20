@@ -123,7 +123,7 @@ p {
 }
 
 .my-story {
-  background: #eff0f3;
+  background: #fffffe;
 }
 
 .my-story h3,
@@ -132,11 +132,11 @@ h4 {
 }
 
 .my-story p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .my-story-acts {
-  border: 1px solid #fca61f;
+  border: 2px solid #fca61f;
   border-radius: 8px;
   justify-content: space-evenly;
   margin: 5px;
