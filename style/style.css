@@ -187,7 +187,9 @@ h4 {
 }
 
 .logo {
-  max-height: 50px;
+  max-height: 100px;
+  position: relative;
+  top: 10px;
 }
 
 nav {
@@ -204,6 +206,7 @@ nav li {
   list-style: none;
   line-height: 42px;
   margin-left: 16px;
+  font-size: 22px;
 }
 
 nav a {
@@ -215,6 +218,12 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-secondary-color);
+}
+
+#coffee-banner {
+  position: relative;
+  left: 5.25rem;
+  top: 0.5rem;
 }
 
 footer h3 {
@@ -255,6 +264,23 @@ footer .contact-box p {
 
 .contact-inquiry p {
   font-size: 24px;
+}
+
+.git-sponsor {
+  display: block;
+  margin: 0 auto;
+}
+
+.courses {
+  list-style-type: none;
+}
+
+.content-img {
+  display: block;
+  float: right;
+  height: 200px;
+  position: relative;
+  top: 30px;
 }
 
 @media (max-width: 960px) {
